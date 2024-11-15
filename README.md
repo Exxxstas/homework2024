@@ -52,6 +52,22 @@ https://urban-university.pro/student/lesson/8795
 
 print(immutable_var)
 
+# кортеж не поддерживает элементы,т.к. является неизменяемым типом данных.
+
+
+
+4.mutable_list = ['London', 'Madrid', 'Moscow']
+
+print(mutable_list)
+
+mutable_list[0] = 'Berlin'
+
+mutable_list[1] = 'Lisboa'
+
+mutable_list[2] = 'Saint-Petersburg'
+
+print(mutable_list)
+
 Практическая работа по уроку "Словари и множества"
 https://urban-university.pro/student/lesson/8798
 
@@ -93,21 +109,7 @@ print(my_set)
 
 3.immutable_var[0][0] = 2
 
-# кортеж не поддерживает элементы,т.к. является неизменяемым типом данных.
 
-
-
-4.mutable_list = ['London', 'Madrid', 'Moscow']
-
-print(mutable_list)
-
-mutable_list[0] = 'Berlin'
-
-mutable_list[1] = 'Lisboa'
-
-mutable_list[2] = 'Saint-Petersburg'
-
-print(mutable_list)
 
 
 
